@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
                         modalContent.dataset.originalBg = modalContent.style.backgroundColor;
                     }
                     modalContent.style.backgroundColor = bgColor;
-                        modalContent.style.borderRadius = "10px";
+                        modalContent.style.borderRadius = '25px';
                 
                 }
             });
