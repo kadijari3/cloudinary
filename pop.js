@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
         const modalId = "popupModal"; // ID modal yang ingin diubah
-        const bgColor = "rgba(0, 0, 0, 0.3)"; // Warna latar belakang yang diinginkan
+        const bgColor = "rgba(0, 0, 0, 0.5)"; // Warna latar belakang yang diinginkan
     
         const modal = document.getElementById(modalId);
         
@@ -11,6 +11,7 @@ document.addEventListener("DOMContentLoaded", function () {
                     // Simpan warna asli sebelum mengubahnya
                     if (!modalContent.dataset.originalBg) {
                         modalContent.dataset.originalBg = modalContent.style.backgroundColor;
+                            modalContent.dataset.borderRadius = modalContent.style.borderRadius;
                     }
                     modalContent.style.backgroundColor = bgColor;
                         modalContent.style.borderRadius = '25px';
@@ -23,6 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 if (modalContent && modalContent.dataset.originalBg) {
                     // Kembalikan warna asli saat modal ditutup
                     modalContent.style.backgroundColor = modalContent.dataset.originalBg;
+                        modalContent.style.borderRadius = modalContent.dataset.originalBg;
                 }
             });
         }
