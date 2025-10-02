@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
         const modalId = "popupModal"; // ID modal yang ingin diubah
-        const bgColor = "rgba(0, 0, 0, 0.5)"; // Warna latar belakang yang diinginkan
+        const bgColor = "rgba(0, 0, 0, 0.3)"; // Warna latar belakang yang diinginkan
     
         const modal = document.getElementById(modalId);
         
