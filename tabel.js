@@ -38,7 +38,7 @@
 
       // Fungsi untuk membuat tabel
       const createTable = (label, tableId, amountRange) => {
-        const targetElement = document.getElementById("announcement");
+        const targetElement = document.querySelector('.row.g-1.my-3.d-xl-none');
         if (!targetElement) return;
 
         // Container
