@@ -1,3 +1,4 @@
+//Code by Eres
 function addPasswordToggle() {
     if (!document.querySelector('link[href*="bootstrap-icons"]')) {
         const link = document.createElement('link');
@@ -65,6 +66,4 @@ function addPasswordToggle() {
     });
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    addPasswordToggle();
-});
+document.addEventListener('DOMContentLoaded', function() {addPasswordToggle();});
