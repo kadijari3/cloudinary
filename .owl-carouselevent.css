@@ -16,7 +16,7 @@
 		--carousel-item-height: 450px;
 		--carousel-item-gap: 2rem;
 
-		--clr-cta: ffae00;
+		--clr-cta: rgb(0, 132, 209);
 
 		position: relative;
 		width: var(--carousel-width);
