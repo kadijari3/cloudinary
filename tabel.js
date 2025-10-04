@@ -44,10 +44,10 @@
         // Container
         const container = document.createElement("div");
         container.className = "table-container";
-        container.style.margin = "20px 15px";
+        container.style.margin = "10px";
         container.style.overflow = "hidden";
         container.style.border = "1px solid #ffbb00";
-        container.style.borderRadius = "12px";
+        container.style.borderRadius = "10px";
         container.style.background = "linear-gradient(#c80000 , #960000, #640000)";
         container.style.color = "#fff";
         container.style.boxShadow = "0 6px 20px rgba(0,0,0,0.4)";
@@ -63,8 +63,8 @@
         tableLabel.style.margin = "0";
         tableLabel.style.fontSize = "16px";
         tableLabel.style.fontWeight = "bold";
-        tableLabel.style.borderTopLeftRadius = "12px";
-        tableLabel.style.borderTopRightRadius = "12px";
+        tableLabel.style.borderTopLeftRadius = "10px";
+        tableLabel.style.borderTopRightRadius = "10px";
         container.appendChild(tableLabel);
 
         // Table
