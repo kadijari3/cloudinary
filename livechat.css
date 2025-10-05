@@ -10,11 +10,11 @@
         .d-block{display:block}
 
         .btn-blink{
+            border: 2px solid #1fb800;
+            border-radius: 7px;
             animation:1s infinite pulse}
             @keyframes pulse{
-                0%,100%{
-                    transform:scale(.98);
-                }
+                0%,100%{transform:scale(.97);}50%{transform:scale(1);}
             }
 
         .floating{
