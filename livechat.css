@@ -1,4 +1,3 @@
-
         .cta-daftar{
             padding:10px;color:#fff;
             font-size:16px;
@@ -11,13 +10,10 @@
         .d-block{display:block}
 
         .btn-blink{
-            border: 2px solid #1fb800;
-            border-radius: 7px;
             animation:1s infinite pulse}
             @keyframes pulse{
-                0%,100%{transform:scale(.98);
-                background:linear-gradient(to top,#1fb800 0,#2feb00 100%)}50%{transform:scale(1);
-                    background:linear-gradient(to top,#2feb00 0,#44ff0b 100%)
+                0%,100%{
+                    transform:scale(.98);
                 }
             }
 
