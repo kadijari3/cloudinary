@@ -1,0 +1,126 @@
+  /*GIF WA*/
+  .mobile-only {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .mobile-only {
+      display: block;
+  position: fixed;
+  bottom: 145px; 
+  left: 13px; 
+  z-index: 10; 
+  opacity: 0.98;
+    }
+  }
+
+	html, body {
+	height: 100%;
+	margin: 0; 
+	padding: 0; 
+	}
+
+	body {
+	background-image: url('https://ajaibcloud.sgp1.cdn.digitaloceanspaces.com/qris108/banner/background.webp'); 
+	background-size: cover;
+	background-position: center center;
+	}
+
+  /*Pengaturan NavBar*/
+	.menubar.navbar.navbar-dark.bg-dark.py-2.px-2{
+		background: linear-gradient( rgb(200, 0, 0), rgb(150, 0, 0) , rgb(100, 0, 0));
+	}
+
+	.menubar.navbar.fixed-bottom.navbar-dark.bg-dark.p-0{
+		background: linear-gradient( rgb(200, 0, 0), rgb(150, 0, 0) , rgb(100, 0, 0));
+	}
+
+	.navbar.navbar-dark.bg-dark.py-1{
+		background: linear-gradient( rgb(50, 50, 50), rgb(25, 25, 25) , rgb(0, 0, 0));
+	}
+
+  /*Pengaturan Tombol*/
+		button.btn.btn-secondary.w-100{
+			background: linear-gradient(#ffffff , #cfcfcf);
+		}
+
+		button.btn.btn-secondary{
+			background: linear-gradient(#ffffff , #cfcfcf);
+		}
+
+		button#cancel-deposit-qris.btn.btn-danger{
+			background: linear-gradient(  #ffee00, #ffbb00);
+		}
+
+		button.btn.btn-outline-primary{
+			background: linear-gradient(  #ffee00, #ffbb00);
+		}
+
+		#sidebar.bg-dark.active{
+			background: rgba(128, 0, 0, 0.5);
+		}
+
+		.position-relative, button#sidebarCollapse.btn.btn-dark.no-glass{
+			background: linear-gradient( #c80000 , #640000);
+			border: 1px solid #f3c537;
+			border-radius: 10px;
+		}
+
+  		.btn.btn-outline-primary a{
+			font-weight: 300; 
+			letter-spacing: 1px;
+			border-radius: 10px;
+			font-size: 15px;
+				
+		}
+
+		.btn.btn-outline-primary.rounded-3{
+			font-weight: 300; 
+			color: #000000;
+				border-radius: 10px;
+				font-size: 15px;
+				border: #ffffff 2px solid;
+				background: linear-gradient(135deg, #ffffff 0%, #ffffff 40%,#ffffff 40%,  #e7e7e7 60%,  #ffffff 80%,  #e7e7e7 100%);
+				background-size: 400% 400%;
+				animation: gradient 2s ease infinite;
+		}
+
+		.btn.btn-outline-primary.btn-sm{
+			background: linear-gradient( #ffee00, #ffbb00);
+			border: 2px solid #f3c537;
+			border-radius: 50px;
+		}
+
+		.btn.btn-outline-primary.btn-sm:hover{
+			background: linear-gradient( #ffee00, #ffee00);
+			border: 2px solid #f3c537;
+			border-radius: 50px;
+			color: #000000;
+		}
+
+		button.btn.btn-outline-danger{
+			background: linear-gradient( #fff , #a5a59f);
+			color: #1b1b1b;
+			border: #ffae00 2px solid;
+			font-weight: 600; 
+            font-size: 20px;
+            letter-spacing: 2px;
+            padding-top: 3px;
+            padding-bottom: px;
+		}
+
+		button.btn.btn-outline-danger:hover{
+			background: linear-gradient( #fff , #fff);
+			color: #8b8b8b;
+			border: #ffae00 2px solid;
+			font-weight: 600; 
+            font-size: 20px;
+            letter-spacing: 2px;
+            padding-top: 3px;
+            padding-bottom: px;
+		}
+
+    /*Pengaturan Menubar*/
+		.menubar {
+				border-top: 1px solid #ffee00;
+			}
