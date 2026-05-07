@@ -20,7 +20,7 @@
 	padding: 0; 
 	}
 
-	body {
+	#content {
 	background-image: url('https://ajaibcloud.sgp1.cdn.digitaloceanspaces.com/qris108/banner/background.webp'); 
 	background-size: cover;
 	background-position: center center;
