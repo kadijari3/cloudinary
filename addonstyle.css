@@ -273,3 +273,7 @@ border: 1px;
 	border: 1px #f3c537 solid;
   }
 
+
+ .promo-button.btn.btn-purple-moon.p-3{
+    background: linear-gradient(#fff01d, #e4a000);
+  }
